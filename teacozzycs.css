@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-family: helvetica;
+    opacity: 0.9;
+    font-size: 22px;
+}
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+
+}
+
+.headimg {
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+header li {
+    font-size: 22px;
+    display: inline-block;
+    margin: 0px 15px;
+}
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.bodyimg1 {
+    z-index: 1;
+    height: 700px;
+    width: 1200px;
+}
+
+#mission {
+    background-image: url("img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mission-describtion {
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    width: 100%;
+}
+
+h2 ,h4 ,h5 {
+    color: seashell;
+    text-align: center;
+}
+
+#tea {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.imgrow1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.imgrow2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap;
+}
+.imgrow1 img {
+    width: 300px;
+    height: 200px;
+    height: auto;
+}
+.imgrow2 img {
+    width: 300px;
+    height: 200px;
+    height: auto;
+}
+#locations {
+    background-image: url("img-locations-background.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 10px;
+    align-items: center;
+
+}
+.loc h2 {
+    margin-top: 10px;
+    margin-bottom: 200px;
+    
+}
+
+.firstdec {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: auto;
+}
+.seconddec {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: auto;
+}
+.thirddec {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+#final {
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+h6{
+    text-align: left;
+}
