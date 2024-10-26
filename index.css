@@ -10,10 +10,12 @@ header {
     border-bottom: 1px solid seashell;
 
 }
-
 .headimg {
-    height: 50px;
-    margin-left: 10px;
+    height: auto;
+    margin: auto;
+    display: block;
+    width: 75;
+    text-align: middle;
 }
 
 
@@ -29,6 +31,10 @@ nav {
 nav a {
     text-decoration: underline;
     color: seashell;
+}
+.home-link{
+    color:rgb(255, 0, 0);
+    text-decoration: none;
 }
 
 .bodyimg1 {
